@@ -1,0 +1,662 @@
+/*-----
+NAME             : RAH
+STYLE            : RAH STYLE
+Color            : WHITE AND BLACK
+Designer         : OSAMA ALMOUSA
+URL              : WWW.OSAMAALMOUSA.ME
+-------------*/
+@font-face{
+    font-family:"Almarai";
+    src:url("../font/Almarai-Light.eot");
+    src:url("../font/Almarai-Light.woff") format("woff"),
+        url("../font/Almarai-Light.woff2") format("woff2"),
+        url("../font/Almarai-Light.ttf") format("truetype"),
+        url("../font/Almarai-Light.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family:"Reem Kufi";
+    src:url("../font/ReemKufi-Regular.eot");
+    src:url("../font/ReemKufi-Regular.woff") format("woff"),
+        url("../font/ReemKufi-Regular.woff2") format("woff2"),
+        url("../font/ReemKufi-Regular.ttf") format("truetype"),
+        url("../font/ReemKufi-Regular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+background:white;
+color:black;
+width: 100%;
+margin: 0;
+font-family: 'Almarai';
+}
+/*--الشريط العلوي--*/
+.topbar1 {
+height:40px;width:100%;    
+background: #fdfdfd;
+border-bottom: #4545454a solid 1px;
+    BOX-SHADOW: 0PX 1PX 3PX 0PX #b9b9b9;
+	    position: fixed;
+    z-index: 1000;
+}
+.topbar1_1 {
+    display: block;
+    width: 10%;
+    height: 40px;
+    float: right;   
+}
+.topbar1_1 a {
+    height: 40px;
+    width: 60px;
+    display: block;
+    background: #f3f3f380;
+    border: #4545454a solid 1px;
+    border-top: 0;
+    border-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topbar1_1 a img {
+    height: 37px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1px;
+}
+.topbar1_2 {
+height: 40px;
+width: 45%;
+float: left;
+}
+.topbar1_2 ul {
+margin: 0;
+padding-left: 15%;
+}
+.topbar1_2 ul li {
+float: left;
+background: repeating-radial-gradient(#f3f3f380, transparent 84px);
+border: #4545454a solid 1px;
+border-top: 0;
+border-bottom: 0;
+margin-right: 3px;
+padding-top: 0;
+height: 40px;
+list-style: none;
+margin-left: 0px;
+}
+.topbar1_2 ul li a {
+padding: 12px;
+padding-bottom: 9px;
+border-left: 0;
+position: initial;
+border-right: 0;
+border-left: 0;
+}
+.topbar1_2 ul a:hover {
+background: repeating-radial-gradient(#e6e6e6, transparent 84px);
+}
+.topbar1_2 ul li img {
+height: 24px;
+position: relative;
+top: 7px;
+}
+.topbar1_3 {
+height: 40px;
+width: 45%;
+float: right;
+}
+.topbar1_3 ul {
+margin: 0;
+padding-right: 15%;
+}
+.topbar1_3 ul li {
+float: right;
+list-style: none;
+margin-left: 3px;
+}
+.topbar1_3 ul li a {
+    padding: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-left: solid 1px #cdcdcd;
+    border-right: solid 1px #cdcdcd;
+    text-decoration: none;
+    color: #313131;
+    font-size: 18px;
+    position: relative;
+    top: 6px;
+    background: repeating-radial-gradient(#f3f3f380, transparent 84px);
+}
+.topbar1_3 ul li a:hover {
+background: repeating-radial-gradient(#e6e6e6, transparent 84px);
+color: #313131;
+border-bottom: 2px solid #565656;
+}
+/*--نهاية الشريط العلوي--*/
+    
+/*--الوصف--*/
+.div-top {
+    width: 100%;
+	background-image: url(../photos/6518691681.jpg);
+	padding-top: 40px;
+}
+.div-top .p-top-2 {
+    margin: 0;
+    text-align: center;
+    color: black;
+	font-size: large;
+}
+.div-top-1{
+    padding: 88px;
+	background-color: #ffffffed;
+}
+.p-top-1 {
+font-family:"Reem Kufi";
+    text-align: center;
+    font-size: xxx-large;
+    color: #3a3a3a;
+	margin:0;
+}
+.www-rah {
+    font-family: Reem Kufi;
+    text-align: center;
+}
+/*--نهاية الوصف--*/
+    
+/*--المنطقة الوسطى--*/
+.div-center {
+    width: 100%;
+}
+.div-center-1 {
+    height: 40px;
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border-left: 10px solid #6a6f75;
+    border-right: 10px solid #6a6f75;
+    margin-bottom: 16px;
+    box-shadow: 0px 0px 1px 1px #b9b9b9;
+    margin-top: 50px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.div-center-1-1 {
+    padding-top: 4px;
+}
+/*--بداية السلايدر--*/
+.slider{
+width:100%;
+margin:auto;
+overflow:hidden;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+.slider ul{
+margin:0;
+padding:0;
+list-style:none;
+width:1000%;
+position:relative;
+animation:sliding 18s ease-in-out infinite;
+}
+.slider ul li{
+float:left;
+width: 10%;
+}
+.slider ul li img{
+width:100%;
+}
+@keyframes sliding{
+2%,19%{left:0}
+22%,36%{left:-100%}
+39%,56%{left:-200%}
+59%,76%{left:-300%}
+79%,94%{left:-400%}
+99%,100%{left:0}
+}
+/*--نهاية السلايدر--*/
+.div-center-2 {
+
+}
+.div-center-2-1 {
+    width: 80%;
+    margin: auto;
+}
+.div-center-2-1-1 p{
+    text-align: center;
+    padding-top: 39px;
+    font-size: larger;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+}
+.div-center-2-1-2 {
+    width: 100%;
+    height: auto;
+	display: -webkit-inline-box;
+    margin-bottom: 50px;
+}
+.div-center-2-1-2-1 {
+    width: 20%;
+	    margin: auto;
+}
+.div-center-2-1-2-1 img {
+    width:100%;
+	    display: block;
+    margin: auto;
+}
+.div-center-2-1-2-1 a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #efefef;
+    border-radius: 13px;
+    box-shadow: 0px 0px 0px 2px #d8d8d8;
+	text-align: center;
+    padding-bottom: 17px;
+    color: #3a3a3a;
+	text-decoration: none;
+    font-weight: 600;
+	}
+.div-center-2-1-2-1 a:hover {
+background: #e6e6e6;
+}
+/*--نهاية المنطقة الوسطى--*/
+    
+/*--الشريط السفلي--*/
+.bottombar {
+    height: auto;
+    width: 100%;
+    background: #e8e8e8a1;
+    border-top: #4545454a solid 1px;
+}
+.rah{
+	    text-align: center;
+    DIRECTION: RTL;
+    FONT-SIZE: smaller;
+    float: right;
+    margin-right: 35px;
+    padding-top: 8px;
+    padding-bottom: 7px;
+    margin-top: 0;
+}
+.osamaalmousa{
+width: 101px;
+    margin-top: 6px;
+    margin-left: 35px;
+}
+.osamaalmousa img{
+width:100%;
+}
+/*--نهاية الشريط السفلي--*/
+
+/*--- الشاشات الصغيرة ---*/
+/*--الشريط العلوي للشاشات الصغيرة--*/
+.topbar2{
+    display: none;
+}
+.topbar2-s{
+    display: none;
+}
+/*--نهاية الشريط العلوي للشاشات الصغيرة--*/
+
+
+@media screen and (max-width:700px) {
+    .topbar1{
+        display: none
+    }
+    .topbar2{
+height:40px;width:100%;    
+background: #fdfdfd;
+border-bottom: #4545454a solid 1px;
+    BOX-SHADOW: 0PX 1PX 3PX 0PX #b9b9b9;
+	    position: fixed;
+    z-index: 1000;
+            display: block;
+
+    }
+    .topbar2_1 {
+    display: block;
+    height: 40px;
+    float: right;
+}
+.topbar2_1 a {
+    height: 40px;
+    width: 60px;
+    display: block;
+    background: #f3f3f380;
+    border: #4545454a solid 1px;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topbar2_1 a img {
+    height: 37px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1px;
+}
+.sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #484848;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav a{
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+.sidenav a:hover{
+    color: black;
+}
+    .sidenav .closebtn{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main{
+        transition: margin-left .5s;
+    }
+    #main span{
+    cursor: pointer;
+    position: relative;
+    padding-left: 4px;
+    }
+    #main span img {
+    height: 40px;
+    position: relative;
+}
+    .Social-side {
+height: 40px;
+float: left;
+            width: 100%;
+}
+.Social-side ul {
+margin: 0;
+}
+.Social-side li {
+    float: left;
+    border-top: 0;
+    border-bottom: 0;
+    margin-right: 0px;
+    padding-top: 0;
+    height: 40px;
+    list-style: none;
+    margin-left: -6px;
+}
+.Social-side ul li a {
+    padding: 12px;
+}
+.Social-side ul a:hover {
+}
+.Social-side ul li img {
+height: 24px;
+position: relative;
+top: 7px;
+}
+.div-center-2-1-2-1 {
+    width: 39%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 41px;
+    display: inline-table;
+}
+.div-center-2-1-2 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+    
+    
+}
+@media screen and (max-width:640px) {
+
+}
+@media screen and (max-width:530px) {
+.div-center-2-1-2-1 {
+    width: 39%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 35px;
+    display: inline-table;
+}
+    
+}
+@media screen and (max-width:430px) {
+.div-center-2-1 {
+    width: 97%;
+    margin: auto;
+}
+.div-top-1 {
+    padding: 88px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffffed;
+}
+      
+    .div-center-2-1-2-1 {
+    width: 39%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    display: inline-table;
+}  
+    div#rah-bottombar {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+ .osamaalmousa img {
+    height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-top: 2px;
+         width: auto;
+}   
+}
+@media screen and (max-width:420px){
+    .topbar2{
+    display: none;
+}
+    .topbar2-s{
+height:40px;width:100%;    
+background: #fdfdfd;
+border-bottom: #4545454a solid 1px;
+    BOX-SHADOW: 0PX 1PX 3PX 0PX #b9b9b9;
+	    position: fixed;
+    z-index: 1000;
+            display: block;
+
+    }
+    .topbar2_1-s {
+    display: block;
+    height: 40px;
+    float: right;
+}
+.topbar2_1-s a {
+    height: 40px;
+    width: 60px;
+    display: block;
+    background: #f3f3f380;
+    border: #4545454a solid 1px;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topbar2_1-s a img {
+    height: 37px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1px;
+}
+.sidenav-s{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    background-color: #484848;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.sidenav-s a{
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    text-align: center;
+}
+.sidenav-s a:hover{
+    color: black;
+}
+    .sidenav-s .closebtn-s{
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+    #main-s{
+        transition: margin-left .5s;
+    }
+    #main-s span{
+    cursor: pointer;
+    position: relative;
+    padding-left: 4px;
+    }
+    #main-s span img {
+    height: 40px;
+    position: relative;
+}
+    .Social-side-s {
+height: 40px;
+float: left;
+            width: 100%;
+}
+.Social-side-s ul {
+    width: fit-content;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+}
+.Social-side-s li {
+    float: left;
+    border-top: 0;
+    border-bottom: 0;
+    margin-right: 3px;
+    padding-top: 0;
+    height: 40px;
+    list-style: none;
+    margin-left: 3px;
+}
+.Social-side-s ul li a {
+    padding: 12px;
+}
+.Social-side-s ul a:hover {
+}
+.Social-side-s ul li img {
+height: 24px;
+position: relative;
+top: 7px;
+}
+}
+@media screen and (max-width:345px){
+
+    
+}
+@media screen and (max-width:260px){
+    
+    .div-center-1 {
+    width: 70%;
+}
+    .div-center-2-1-2-1 {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 25px;
+    display: inline-table;
+}
+}
+@media screen and (max-width:235px){
+.Social-side-s li {
+    float: left;
+    border-top: 0;
+    border-bottom: 0;
+    margin-right: 3px;
+    padding-top: 0;
+    height: 56px;
+    list-style: none;
+    margin-left: 40px;
+}
+}
+@media screen and (max-width:210px){
+     .div-center-1 {
+    width: 61%;
+}  
+    p.p-top-1 {
+    font-size: xx-large;
+}
+ p.www-rah {
+    font-size: smaller;
+}   
+    .Social-side-s ul {
+    width: min-content;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+}
+    .Social-side-s li {
+    float: left;
+    border-top: 0;
+    border-bottom: 0;
+    margin-right: 3px;
+    padding-top: 0;
+    height: 56px;
+    list-style: none;
+    margin-left: 4px;
+}
+}
+@media screen and (max-width:180px){
+        .div-center-1 {
+    width: 54%;
+    }
+} 
+    @media screen and (max-width:150px){
+    .div-center-1 {
+    width: 47%;
+    }
+        p.www-rah {
+    font-size: 12px;
+}
+}
